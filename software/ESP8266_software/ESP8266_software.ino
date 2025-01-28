@@ -35,7 +35,10 @@ void loop() {
       Serial.println("Error al enviar datos: " + String(httpResponseCode));
     }
     http.end();
+     delay(10000);  // Enviar cada 5 minutos
+      //ESP.deepSleep(60e6,  WAKE_RF_DEFAULT); //hibernar por 50 segundos
+  }else{
+    WiFi.begin(ssid, password);
   }
-  delay(10 000);  // Enviar cada 10 segundos
-  //ESP.deepSleep(60e6,  WAKE_RF_DEFAULT); //hibernar por 50 segundos
+ 
 }

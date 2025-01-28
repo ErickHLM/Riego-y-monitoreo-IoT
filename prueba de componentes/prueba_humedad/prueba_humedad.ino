@@ -1,5 +1,5 @@
 // Define the pin connections
-const int sensorPin = 34; // Analog pin where the sensor is connected
+const int sensorPin = 32; // Analog pin where the sensor is connected
 const int ledPin = 2;     // Digital pin for the onboard LED
 
 void setup() {

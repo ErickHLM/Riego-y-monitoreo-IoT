@@ -1,0 +1,45 @@
+{
+  "sensors": {
+    "humidity": {
+      "current": 0,
+      "history": {
+        "initial": {
+          "value": 0,
+          "timestamp": "2024-01-28T00:00:00"
+        }
+      }
+    },
+    "rain": {
+      "current": 0,
+      "history": {
+        "initial": {
+          "value": 0,
+          "timestamp": "2024-01-28T00:00:00"
+        }
+      }
+    },
+    "waterLevel": {
+      "current": 0,
+      "history": {
+        "initial": {
+          "value": 0,
+          "timestamp": "2024-01-28T00:00:00"
+        }
+      }
+    }
+  },
+  "relays": {
+    "relay1": {
+      "status": false,
+      "lastChanged": "2024-01-28T00:00:00"
+    },
+    "relay2": {
+      "status": false,
+      "lastChanged": "2024-01-28T00:00:00"
+    }
+  },
+  "system": {
+    "lastUpdate": "2024-01-28T00:00:00",
+    "status": "offline"
+  }
+}
